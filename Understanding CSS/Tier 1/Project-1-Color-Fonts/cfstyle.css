@@ -1,12 +1,28 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: rgb(144, 235, 226);
+    text-align: center;
 }
+
 
 .card {
   /* Add border, padding, color, etc. */
+padding-top: 100px;
+padding-bottom: 100px;
+color:rgb(64, 132, 126);
+border-style: solid;
+border-color:rgb(235, 181, 5);
+margin: 15px;
 }
 
-button {
+
+button{
   /* Add hover color or border-radius */
+  border-radius: 15px;
+  font-size:xx-large;
+  background-color: rgb(53, 220, 211);
+}
+
+button:hover {
+color: rgb(235, 181, 5)
 }
