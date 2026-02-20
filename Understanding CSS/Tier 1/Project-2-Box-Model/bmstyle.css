@@ -1,6 +1,17 @@
+body{
+  background-color: rgb(246, 223, 249); /* added */
+}
 .box {
-  background-color: lightblue;
-  padding: 20px;
-  border: 5px solid navy;
-  margin: 20px;
+  background-color: rgb(216, 173, 230); /* adjusted for personal taste */
+  padding: 200px; /*made box BIG */
+  border: 15px solid rgb(124, 0, 128); /* made box thicker */
+  border-radius: 50px; /* rounded box out:] */
+  margin: 60px; /* adjusted to be slightly larger */
+  font-size:xx-large; /* adjusted for personal taste-> BIG */
+  text-align: center; /* centered from left-aligned for personal taste */
+  color: rgb(255, 254, 252); /* adjusted for personal taste */
+  transition: background-color 5s ease; /* added but unclear of further use in future */
+  }
+.box:hover{
+  color:rgb(136, 48, 186)
 }
